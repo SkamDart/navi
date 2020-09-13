@@ -1,0 +1,13 @@
+[package]
+name = "navi"
+version = "0.1.0"
+authors = ["Cameron Dart <cdart@anduril.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+futures = "0.3"
+netlink-proto = "0.4.1"
+rtnetlink = "0.4.0"
+tokio = { version = "0.2.22", features = [ "full" ] }
+zoomies = { git = "https://github.com/SkamDart/zoomies.git", rev = "673dd49f94ac7767673ce7268adc656b535e4560" }
